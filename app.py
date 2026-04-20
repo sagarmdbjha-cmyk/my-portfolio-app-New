@@ -93,19 +93,20 @@ def get_unlisted_shares_data():
 
 def get_mutual_fund_data():
     data = [
-        {"name": "ICICI Pru Large & Mid Cap",      "amfi": 120596, "units": 134.131,  "invested": 46000,    "nav": 1151.83},
-        {"name": "Bandhan Small Cap Fund",          "amfi": 147946, "units": 741.531,  "invested": 30000,    "nav": 51.335},
-        {"name": "Motilal Oswal Digital India",     "amfi": 152964, "units": 1145.416, "invested": 26000,    "nav": 8.9923},
-        {"name": "Nippon India Power & Infra",      "amfi": 118763, "units": 86.84,    "invested": 25000,    "nav": 403.0918},
-        {"name": "ICICI Pru Multi Asset Fund",      "amfi": 120334, "units": 338.455,  "invested": 22000,    "nav": 898.8148},
-        {"name": "JioBlackRock Nifty 50 Index",     "amfi": 153787, "units": 1548.025, "invested": 19000,    "nav": 9.8061},
-        {"name": "Motilal Oswal Midcap Fund",       "amfi": 147622, "units": 165.234,  "invested": 17500,    "nav": 39.9191},
-        {"name": "Tata BSE Select Business Groups", "amfi": 153132, "units": 1007.411, "invested": 16000,    "nav": 10.2289},
-        {"name": "Axis ELSS Tax Saver Fund",        "amfi": 120503, "units": 185.748,  "invested": 12154.98, "nav": 105.9826},
-        {"name": "Axis Momentum Fund",              "amfi": 153083, "units": 804.888,  "invested": 11000,    "nav": 9.26},
-        {"name": "SBI Contra Direct Plan",          "amfi": 119835, "units": 23.951,   "invested": 9000,     "nav": 411.7989},
-        {"name": "JioBlackRock Flexi Cap Fund",     "amfi": 153859, "units": 536.547,  "invested": 6000,     "nav": 9.84},
-        {"name": "JioBlackRock Sector Rotation",    "amfi": 154082, "units": 557.22,   "invested": 6000,     "nav": 9.7351},
+        {"name": "ICICI Pru Large & Mid Cap",      "amfi": 120596, "units": 41.635,  "invested": 45000,    "nav": 1032.98},
+        {"name": "Bandhan Small Cap Fund",          "amfi": 147946, "units": 592.22,  "invested": 30000,    "nav": 44.632},
+        {"name": "Motilal Oswal Digital India",     "amfi": 152964, "units": 2657.265, "invested": 26000,    "nav": 7.9061},
+        {"name": "Nippon India Power & Infra",      "amfi": 118763, "units": 67.211,    "invested": 25000,    "nav": 361.0901},
+        {"name": "ICICI Pru Multi Asset Fund",      "amfi": 120334, "units": 26.999,  "invested": 22000,    "nav": 836.5918},
+        {"name": "JioBlackRock Nifty 50 Index",     "amfi": 153787, "units": 1859.599, "invested": 18000,    "nav": 8.9852},
+        {"name": "Motilal Oswal Midcap Fund",       "amfi": 147622, "units": 145.096,  "invested": 16500,    "nav": 95.6147},
+        {"name": "Tata BSE Select Business Groups", "amfi": 153132, "units": 1632.068, "invested": 16000,    "nav": 9.1762},
+        {"name": "Axis ELSS Tax Saver Fund",        "amfi": 120503, "units": 189.686,  "invested": 13507.62, "nav": 97.7184},
+        {"name": "Axis Momentum Fund",              "amfi": 153083, "units": 1222.952,  "invested": 11000,    "nav": 8.41},
+        {"name": "SBI Contra Direct Plan",          "amfi": 119835, "units": 21.842,   "invested": 9000,     "nav": 381.0307},
+        {"name": "JioBlackRock Flexi Cap Fund",     "amfi": 153859, "units": 608.198,  "invested": 6000,     "nav": 8.88},
+        {"name": "JioBlackRock Sector Rotation",    "amfi": 154082, "units": 627.694,   "invested": 6000,     "nav": 8.8173},
+        {"name": "Motilal Oswal BSE 1000 Index Fund",    "amfi": 152330, "units": 1003.5,   "invested": 10000,     "nav": 8.9842}
     ]
     return pd.DataFrame(data)
 
