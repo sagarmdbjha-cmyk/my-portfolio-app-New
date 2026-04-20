@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # ─── PASSWORD PROTECTION ───────────────────────────────────────────────────────
-PASSWORD = "Rohit@2024"  # Change this to your password
+PASSWORD = "Sagar@123"  # Change this to your password
 
 def check_password():
     if "authenticated" not in st.session_state:
